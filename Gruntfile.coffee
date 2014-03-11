@@ -61,14 +61,6 @@ module.exports = (grunt) ->
         files: ['<%= yeoman.app %>/scripts/lib/*.js']
         tasks: ['copy:js']
 
-      coffee:
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee']
-        tasks: ['coffee:dist']
-
-      coffeeTest:
-        files: ['test/spec/{,*/}*.coffee']
-        tasks: ['coffee:test', 'karma:unit:run']
-
       ls:
         files: ['<%= yeoman.app %>/scripts/{,*/}*.ls']
         tasks: ['lsc:dist']
@@ -77,15 +69,9 @@ module.exports = (grunt) ->
         files: ['test/spec/{,*/}*.ls']
         tasks: ['lsc:test']
 
-      jsTest:
-        files: ['.tmp/scripts/{,*/}*.js','.tmp/spec/{,*/}*.js']
-        tasks: ['karma:unit:run']
-
-
       less:
         files: ['<%= yeoman.app %>/styles/{,*/}*.less']
         tasks: ['less:dev']
-
 
       styles:
         files: ['<%= yeoman.app %>/styles/{,*/}*.css']
@@ -388,15 +374,7 @@ module.exports = (grunt) ->
         'htmlmin'
       ]
 
-    karma:
-      unit:
-        configFile: 'karma.conf.js'
-        singleRun: false
-        autoWatch: false
-        background: true
-      ci:
-        configFile: 'karma.conf.js'
-        singleRun: true
+
 
     cdnify:
       dist:
@@ -437,6 +415,7 @@ module.exports = (grunt) ->
     grunt.task.run([
       'clean:server'
       'concurrent:server'
+      'html2js:ls'
       'regex-replace'
       'autoprefixer'
       'connect:livereload'

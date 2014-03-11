@@ -1,0 +1,395 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'karma-cli' ]
+2 info using npm@1.3.17
+3 info using node@v0.10.23
+4 verbose cache add [ 'karma-cli', null ]
+5 verbose cache add name=undefined spec="karma-cli" args=["karma-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'karma-cli',
+6 verbose parsed url   path: 'karma-cli',
+6 verbose parsed url   href: 'karma-cli' }
+7 silly lockFile aa100f68-karma-cli karma-cli
+8 verbose lock karma-cli /Users/gmp26/.npm/aa100f68-karma-cli.lock
+9 silly lockFile aa100f68-karma-cli karma-cli
+10 silly lockFile aa100f68-karma-cli karma-cli
+11 verbose addNamed [ 'karma-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 8f6f2c72-karma-cli karma-cli@
+14 verbose lock karma-cli@ /Users/gmp26/.npm/8f6f2c72-karma-cli.lock
+15 silly addNameRange { name: 'karma-cli', range: '*', hasData: false }
+16 verbose url raw karma-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './karma-cli' ]
+18 verbose url resolved https://registry.npmjs.org/karma-cli
+19 info trying registry request attempt 1 at 10:39:12
+20 http GET https://registry.npmjs.org/karma-cli
+21 http 200 https://registry.npmjs.org/karma-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 11 Mar 2014 10:39:01 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+22 silly registry.get     etag: '"2EUDV0CXSRHWWX54138BQX6S8"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '5038',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '1122',
+22 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-am71-AMS',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1394525270.460409880,VS0,VS-525,VE-513,VE9070563',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'karma-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'karma-cli', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+25 verbose addNamed [ 'karma-cli', '0.0.3' ]
+26 verbose addNamed [ '0.0.3', '0.0.3' ]
+27 silly lockFile d66b7bd5-karma-cli-0-0-3 karma-cli@0.0.3
+28 verbose lock karma-cli@0.0.3 /Users/gmp26/.npm/d66b7bd5-karma-cli-0-0-3.lock
+29 silly lockFile b928ea4b-rg-karma-cli-karma-cli-0-0-3-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz
+30 verbose lock https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz /Users/gmp26/.npm/b928ea4b-rg-karma-cli-karma-cli-0-0-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz',
+31 verbose addRemoteTarball   'c1f780935ce025db4afe78e32fda214b8f749a08' ]
+32 info retry fetch attempt 1 at 10:39:12
+33 verbose fetch to= /var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/tmp.tgz
+34 http GET https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz
+35 http 200 https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz
+36 verbose tar unpack /var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/tmp.tgz
+37 silly lockFile 38f0e21c-979-0-016616617562249303-package tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+38 verbose lock tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package /Users/gmp26/.npm/38f0e21c-979-0-016616617562249303-package.lock
+39 silly lockFile 7969a23f-979-0-016616617562249303-tmp-tgz tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/tmp.tgz
+40 verbose lock tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/tmp.tgz /Users/gmp26/.npm/7969a23f-979-0-016616617562249303-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry CHANGELOG.md
+46 silly gunzTarPerm extractEntry bin/karma
+47 silly lockFile 38f0e21c-979-0-016616617562249303-package tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+48 silly lockFile 38f0e21c-979-0-016616617562249303-package tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+49 silly lockFile 7969a23f-979-0-016616617562249303-tmp-tgz tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/tmp.tgz
+50 silly lockFile 7969a23f-979-0-016616617562249303-tmp-tgz tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/tmp.tgz
+51 verbose tar pack [ '/Users/gmp26/.npm/karma-cli/0.0.3/package.tgz',
+51 verbose tar pack   '/var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package' ]
+52 verbose tarball /Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+53 verbose folder /var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+54 silly lockFile 38f0e21c-979-0-016616617562249303-package tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+55 verbose lock tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package /Users/gmp26/.npm/38f0e21c-979-0-016616617562249303-package.lock
+56 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+57 verbose lock tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz /Users/gmp26/.npm/631ba5a3--npm-karma-cli-0-0-3-package-tgz.lock
+58 silly lockFile 38f0e21c-979-0-016616617562249303-package tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+59 silly lockFile 38f0e21c-979-0-016616617562249303-package tar:///var/folders/8t/grbc_8695yd6v_cy7225dxl00000gn/T/npm-53782-ObPz13er/1394534352979-0.016616617562249303/package
+60 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+61 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+62 silly lockFile 3d352fca-mp26-npm-karma-cli-0-0-3-package /Users/gmp26/.npm/karma-cli/0.0.3/package
+63 verbose lock /Users/gmp26/.npm/karma-cli/0.0.3/package /Users/gmp26/.npm/3d352fca-mp26-npm-karma-cli-0-0-3-package.lock
+64 silly lockFile 3d352fca-mp26-npm-karma-cli-0-0-3-package /Users/gmp26/.npm/karma-cli/0.0.3/package
+65 silly lockFile 3d352fca-mp26-npm-karma-cli-0-0-3-package /Users/gmp26/.npm/karma-cli/0.0.3/package
+66 verbose tar unpack /Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+67 silly lockFile bf69c235-mp26-npm-karma-cli-0-0-3-package tar:///Users/gmp26/.npm/karma-cli/0.0.3/package
+68 verbose lock tar:///Users/gmp26/.npm/karma-cli/0.0.3/package /Users/gmp26/.npm/bf69c235-mp26-npm-karma-cli-0-0-3-package.lock
+69 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+70 verbose lock tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz /Users/gmp26/.npm/631ba5a3--npm-karma-cli-0-0-3-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm extractEntry LICENSE
+75 silly gunzTarPerm extractEntry CHANGELOG.md
+76 silly gunzTarPerm extractEntry bin/karma
+77 silly lockFile bf69c235-mp26-npm-karma-cli-0-0-3-package tar:///Users/gmp26/.npm/karma-cli/0.0.3/package
+78 silly lockFile bf69c235-mp26-npm-karma-cli-0-0-3-package tar:///Users/gmp26/.npm/karma-cli/0.0.3/package
+79 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+80 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+81 verbose chmod /Users/gmp26/.npm/karma-cli/0.0.3/package.tgz 644
+82 verbose chown /Users/gmp26/.npm/karma-cli/0.0.3/package.tgz [ 501, 501 ]
+83 silly lockFile b928ea4b-rg-karma-cli-karma-cli-0-0-3-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz
+84 silly lockFile b928ea4b-rg-karma-cli-karma-cli-0-0-3-tgz https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz
+85 silly lockFile d66b7bd5-karma-cli-0-0-3 karma-cli@0.0.3
+86 silly lockFile d66b7bd5-karma-cli-0-0-3 karma-cli@0.0.3
+87 silly lockFile 8f6f2c72-karma-cli karma-cli@
+88 silly lockFile 8f6f2c72-karma-cli karma-cli@
+89 silly resolved [ { name: 'karma-cli',
+89 silly resolved     description: 'The Karma command line interface.',
+89 silly resolved     homepage: 'http://karma-runner.github.io/',
+89 silly resolved     repository:
+89 silly resolved      { type: 'git',
+89 silly resolved        url: 'git://github.com/karma-runner/karma-cli.git' },
+89 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-cli/issues' },
+89 silly resolved     keywords:
+89 silly resolved      [ 'karma',
+89 silly resolved        'spectacular',
+89 silly resolved        'runner',
+89 silly resolved        'karma',
+89 silly resolved        'js',
+89 silly resolved        'javascript',
+89 silly resolved        'testing',
+89 silly resolved        'test',
+89 silly resolved        'remote',
+89 silly resolved        'execution' ],
+89 silly resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+89 silly resolved     contributors: [],
+89 silly resolved     dependencies: { resolve: '~0.5.1' },
+89 silly resolved     peerDependencies: {},
+89 silly resolved     devDependencies:
+89 silly resolved      { grunt: '~0.4.1',
+89 silly resolved        'grunt-contrib-jshint': '~0.7.2',
+89 silly resolved        'grunt-coffeelint': '0.0.7',
+89 silly resolved        'grunt-bump': '0.0.11',
+89 silly resolved        'grunt-npm': '0.0.2',
+89 silly resolved        'grunt-auto-release': '0.0.4',
+89 silly resolved        'grunt-conventional-changelog': '~1.0.0' },
+89 silly resolved     preferGlobal: true,
+89 silly resolved     bin: { karma: './bin/karma' },
+89 silly resolved     engines: { node: '~0.8 || ~0.10' },
+89 silly resolved     version: '0.0.3',
+89 silly resolved     readme: '# karma-cli\n\n> The [Karma] command line interface.\n\nInstall this module if you wanna be able to use `karma` in your command line.\n\n[Karma]: http://karma-runner.github.io\n',
+89 silly resolved     readmeFilename: 'README.md',
+89 silly resolved     _id: 'karma-cli@0.0.3',
+89 silly resolved     dist: { shasum: 'e297a5705e24a0d1d8792d78344879a7339926fb' },
+89 silly resolved     _from: 'karma-cli@',
+89 silly resolved     _resolved: 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.0.3.tgz' } ]
+90 info install karma-cli@0.0.3 into /usr/local/lib
+91 info installOne karma-cli@0.0.3
+92 info /usr/local/lib/node_modules/karma-cli unbuild
+93 verbose tar unpack /Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+94 silly lockFile f15a2687-local-lib-node-modules-karma-cli tar:///usr/local/lib/node_modules/karma-cli
+95 verbose lock tar:///usr/local/lib/node_modules/karma-cli /Users/gmp26/.npm/f15a2687-local-lib-node-modules-karma-cli.lock
+96 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+97 verbose lock tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz /Users/gmp26/.npm/631ba5a3--npm-karma-cli-0-0-3-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm extractEntry LICENSE
+102 silly gunzTarPerm extractEntry CHANGELOG.md
+103 silly gunzTarPerm extractEntry bin/karma
+104 silly lockFile f15a2687-local-lib-node-modules-karma-cli tar:///usr/local/lib/node_modules/karma-cli
+105 silly lockFile f15a2687-local-lib-node-modules-karma-cli tar:///usr/local/lib/node_modules/karma-cli
+106 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+107 silly lockFile 631ba5a3--npm-karma-cli-0-0-3-package-tgz tar:///Users/gmp26/.npm/karma-cli/0.0.3/package.tgz
+108 info preinstall karma-cli@0.0.3
+109 verbose readDependencies using package.json deps
+110 verbose readDependencies using package.json deps
+111 verbose cache add [ 'resolve@~0.5.1', null ]
+112 verbose cache add name=undefined spec="resolve@~0.5.1" args=["resolve@~0.5.1",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'resolve@~0.5.1',
+113 verbose parsed url   path: 'resolve@~0.5.1',
+113 verbose parsed url   href: 'resolve@~0.5.1' }
+114 verbose cache add name="resolve" spec="~0.5.1" args=["resolve","~0.5.1"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '~0.5.1',
+115 verbose parsed url   path: '~0.5.1',
+115 verbose parsed url   href: '~0.5.1' }
+116 verbose addNamed [ 'resolve', '~0.5.1' ]
+117 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+118 silly lockFile 5f45661c-resolve-0-5-1 resolve@~0.5.1
+119 verbose lock resolve@~0.5.1 /Users/gmp26/.npm/5f45661c-resolve-0-5-1.lock
+120 silly addNameRange { name: 'resolve', range: '>=0.5.1-0 <0.6.0-0', hasData: false }
+121 verbose url raw resolve
+122 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+123 verbose url resolved https://registry.npmjs.org/resolve
+124 info trying registry request attempt 1 at 10:39:13
+125 verbose etag "7IXTM0PMO7D0HERXTMFOE5L0N"
+126 http GET https://registry.npmjs.org/resolve
+127 http 200 https://registry.npmjs.org/resolve
+128 silly registry.get cb [ 200,
+128 silly registry.get   { date: 'Tue, 11 Mar 2014 10:39:16 GMT',
+128 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+128 silly registry.get     etag: '"CR360AYPPNKQZ7Z1PO5WCXHT5"',
+128 silly registry.get     'content-type': 'application/json',
+128 silly registry.get     via: '1.1 varnish',
+128 silly registry.get     'cache-control': 'max-age=1',
+128 silly registry.get     'content-length': '70906',
+128 silly registry.get     'accept-ranges': 'bytes',
+128 silly registry.get     age: '32',
+128 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-am72-AMS',
+128 silly registry.get     'x-cache': 'HIT, HIT',
+128 silly registry.get     'x-cache-hits': '1, 1',
+128 silly registry.get     'x-timer': 'S1393963902.803024769,VS0,VS32,VE33,VE570454043',
+128 silly registry.get     vary: 'Accept',
+128 silly registry.get     'keep-alive': 'timeout=10, max=50',
+128 silly registry.get     connection: 'Keep-Alive' } ]
+129 silly addNameRange number 2 { name: 'resolve', range: '>=0.5.1-0 <0.6.0-0', hasData: true }
+130 silly addNameRange versions [ 'resolve',
+130 silly addNameRange   [ '0.0.0',
+130 silly addNameRange     '0.0.1',
+130 silly addNameRange     '0.0.2',
+130 silly addNameRange     '0.0.3',
+130 silly addNameRange     '0.0.4',
+130 silly addNameRange     '0.1.0',
+130 silly addNameRange     '0.1.2',
+130 silly addNameRange     '0.1.3',
+130 silly addNameRange     '0.2.0',
+130 silly addNameRange     '0.2.1',
+130 silly addNameRange     '0.2.2',
+130 silly addNameRange     '0.2.3',
+130 silly addNameRange     '0.2.4',
+130 silly addNameRange     '0.2.5',
+130 silly addNameRange     '0.2.6',
+130 silly addNameRange     '0.2.7',
+130 silly addNameRange     '0.2.8',
+130 silly addNameRange     '0.3.0',
+130 silly addNameRange     '0.3.1',
+130 silly addNameRange     '0.4.0',
+130 silly addNameRange     '0.4.1',
+130 silly addNameRange     '0.4.2',
+130 silly addNameRange     '0.4.3',
+130 silly addNameRange     '0.5.0',
+130 silly addNameRange     '0.5.1',
+130 silly addNameRange     '0.6.0',
+130 silly addNameRange     '0.6.1' ] ]
+131 verbose addNamed [ 'resolve', '0.5.1' ]
+132 verbose addNamed [ '0.5.1', '0.5.1' ]
+133 silly lockFile c04da539-resolve-0-5-1 resolve@0.5.1
+134 verbose lock resolve@0.5.1 /Users/gmp26/.npm/c04da539-resolve-0-5-1.lock
+135 silly lockFile c04da539-resolve-0-5-1 resolve@0.5.1
+136 silly lockFile c04da539-resolve-0-5-1 resolve@0.5.1
+137 silly lockFile 5f45661c-resolve-0-5-1 resolve@~0.5.1
+138 silly lockFile 5f45661c-resolve-0-5-1 resolve@~0.5.1
+139 silly resolved [ { name: 'resolve',
+139 silly resolved     description: 'resolve like require.resolve() on behalf of files asynchronously and synchronously',
+139 silly resolved     version: '0.5.1',
+139 silly resolved     repository:
+139 silly resolved      { type: 'git',
+139 silly resolved        url: 'git://github.com/substack/node-resolve.git' },
+139 silly resolved     main: 'index.js',
+139 silly resolved     keywords: [ 'resolve', 'require', 'node', 'module' ],
+139 silly resolved     scripts: { test: 'tap test/*.js' },
+139 silly resolved     devDependencies: { tap: '~0.4.0' },
+139 silly resolved     license: 'MIT',
+139 silly resolved     author:
+139 silly resolved      { name: 'James Halliday',
+139 silly resolved        email: 'mail@substack.net',
+139 silly resolved        url: 'http://substack.net' },
+139 silly resolved     readme: '# resolve\n\nimplements the [node `require.resolve()`\nalgorithm](http://nodejs.org/docs/v0.4.8/api/all.html#all_Together...)\nsuch that you can `require.resolve()` on behalf of a file asynchronously and\nsynchronously\n\n[![build status](https://secure.travis-ci.org/substack/node-resolve.png)](http://travis-ci.org/substack/node-resolve)\n\n# example\n\nasynchronously resolve:\n\n``` js\nvar resolve = require(\'resolve\');\nresolve(\'tap\', { basedir: __dirname }, function (err, res) {\n    if (err) console.error(err)\n    else console.log(res)\n});\n```\n\n```\n$ node example/async.js\n/home/substack/projects/node-resolve/node_modules/tap/lib/main.js\n```\n\nsynchronously resolve:\n\n``` js\nvar resolve = require(\'resolve\');\nvar res = resolve.sync(\'tap\', { basedir: __dirname });\nconsole.log(res);\n```\n\n```\n$ node example/sync.js\n/home/substack/projects/node-resolve/node_modules/tap/lib/main.js\n```\n\n# methods\n\n``` js\nvar resolve = require(\'resolve\')\n```\n\n## resolve(pkg, opts={}, cb)\n\nAsynchronously resolve the module path string `pkg` into `cb(err, res)`.\n\noptions are:\n\n* opts.basedir - directory to begin resolving from\n\n* opts.package - package from which module is being loaded\n\n* opts.extensions - array of file extensions to search in order\n\n* opts.readFile - how to read files asynchronously\n\n* opts.isFile - function to asynchronously test whether a file exists\n\n* opts.packageFilter - transform the parsed package.json contents before looking\nat the "main" field\n\n* opts.paths - require.paths array to use if nothing is found on the normal\nnode_modules recursive walk (probably don\'t use this)\n\n* opts.moduleDirectory - directory to recursively look for modules in. default:\n`"node_modules"`\n\ndefault `opts` values:\n\n``` javascript\n{\n    paths: [],\n    basedir: __dirname,\n    extensions: [ \'.js\' ],\n    readFile: fs.readFile,\n    isFile: function (file, cb) {\n        fs.stat(file, function (err, stat) {\n            if (err && err.code === \'ENOENT\') cb(null, false)\n            else if (err) cb(err)\n            else cb(null, stat.isFile())\n        });\n    },\n    moduleDirectory: \'node_modules\'\n}\n```\n\n## resolve.sync(pkg, opts)\n\nSynchronously resolve the module path string `pkg`, returning the result and\nthrowing an error when `pkg` can\'t be resolved.\n\noptions are:\n\n* opts.basedir - directory to begin resolving from\n\n* opts.extensions - array of file extensions to search in order\n\n* opts.readFile - how to read files synchronously\n\n* opts.isFile - function to synchronously test whether a file exists\n\n* opts.packageFilter - transform the parsed package.json contents before looking\nat the "main" field\n\n* opts.paths - require.paths array to use if nothing is found on the normal\nnode_modules recursive walk (probably don\'t use this)\n\n* opts.moduleDirectory - directory to recursively look for modules in. default:\n`"node_modules"`\n\ndefault `opts` values:\n\n``` javascript\n{\n    paths: [],\n    basedir: __dirname,\n    extensions: [ \'.js\' ],\n    readFileSync: fs.readFileSync,\n    isFile: function (file) {\n        try { return fs.statSync(file).isFile() }\n        catch (e) { return false }\n    },\n    moduleDirectory: \'node_modules\'\n}\n````\n\n## resolve.isCore(pkg)\n\nReturn whether a package is in core.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install resolve\n```\n\n# license\n\nMIT\n',
+139 silly resolved     readmeFilename: 'readme.markdown',
+139 silly resolved     bugs: { url: 'https://github.com/substack/node-resolve/issues' },
+139 silly resolved     homepage: 'https://github.com/substack/node-resolve',
+139 silly resolved     _id: 'resolve@0.5.1',
+139 silly resolved     _from: 'resolve@~0.5.1' } ]
+140 info install resolve@0.5.1 into /usr/local/lib/node_modules/karma-cli
+141 info installOne resolve@0.5.1
+142 info /usr/local/lib/node_modules/karma-cli/node_modules/resolve unbuild
+143 verbose tar unpack /Users/gmp26/.npm/resolve/0.5.1/package.tgz
+144 silly lockFile d2abd2c6-s-karma-cli-node-modules-resolve tar:///usr/local/lib/node_modules/karma-cli/node_modules/resolve
+145 verbose lock tar:///usr/local/lib/node_modules/karma-cli/node_modules/resolve /Users/gmp26/.npm/d2abd2c6-s-karma-cli-node-modules-resolve.lock
+146 silly lockFile 5b7a08f5-26-npm-resolve-0-5-1-package-tgz tar:///Users/gmp26/.npm/resolve/0.5.1/package.tgz
+147 verbose lock tar:///Users/gmp26/.npm/resolve/0.5.1/package.tgz /Users/gmp26/.npm/5b7a08f5-26-npm-resolve-0-5-1-package-tgz.lock
+148 silly gunzTarPerm modes [ '755', '644' ]
+149 silly gunzTarPerm extractEntry package.json
+150 silly gunzTarPerm extractEntry LICENSE
+151 silly gunzTarPerm extractEntry index.js
+152 silly gunzTarPerm extractEntry .travis.yml
+153 silly gunzTarPerm extractEntry example/async.js
+154 silly gunzTarPerm extractEntry example/sync.js
+155 silly gunzTarPerm extractEntry lib/async.js
+156 silly gunzTarPerm extractEntry lib/caller.js
+157 silly gunzTarPerm extractEntry lib/core.js
+158 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+159 silly gunzTarPerm extractEntry lib/sync.js
+160 silly gunzTarPerm extractEntry lib/core.json
+161 silly gunzTarPerm extractEntry readme.markdown
+162 silly gunzTarPerm extractEntry test/core.js
+163 silly gunzTarPerm extractEntry test/filter.js
+164 silly gunzTarPerm extractEntry test/filter_sync.js
+165 silly gunzTarPerm extractEntry test/mock.js
+166 silly gunzTarPerm extractEntry test/mock_sync.js
+167 silly gunzTarPerm extractEntry test/resolver.js
+168 silly gunzTarPerm extractEntry test/resolver_sync.js
+169 silly gunzTarPerm extractEntry test/resolver/foo.js
+170 silly gunzTarPerm extractEntry test/resolver/mug.js
+171 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+172 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+173 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+174 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+175 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+176 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+177 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+178 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+179 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+180 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+181 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+182 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+183 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+184 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+185 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+186 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+187 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+188 silly lockFile d2abd2c6-s-karma-cli-node-modules-resolve tar:///usr/local/lib/node_modules/karma-cli/node_modules/resolve
+189 silly lockFile d2abd2c6-s-karma-cli-node-modules-resolve tar:///usr/local/lib/node_modules/karma-cli/node_modules/resolve
+190 silly lockFile 5b7a08f5-26-npm-resolve-0-5-1-package-tgz tar:///Users/gmp26/.npm/resolve/0.5.1/package.tgz
+191 silly lockFile 5b7a08f5-26-npm-resolve-0-5-1-package-tgz tar:///Users/gmp26/.npm/resolve/0.5.1/package.tgz
+192 info preinstall resolve@0.5.1
+193 verbose readDependencies using package.json deps
+194 verbose readDependencies using package.json deps
+195 silly resolved []
+196 verbose about to build /usr/local/lib/node_modules/karma-cli/node_modules/resolve
+197 info build /usr/local/lib/node_modules/karma-cli/node_modules/resolve
+198 verbose linkStuff [ true,
+198 verbose linkStuff   '/usr/local/lib/node_modules',
+198 verbose linkStuff   false,
+198 verbose linkStuff   '/usr/local/lib/node_modules/karma-cli/node_modules' ]
+199 info linkStuff resolve@0.5.1
+200 verbose linkBins resolve@0.5.1
+201 verbose linkMans resolve@0.5.1
+202 verbose rebuildBundles resolve@0.5.1
+203 info install resolve@0.5.1
+204 info postinstall resolve@0.5.1
+205 verbose about to build /usr/local/lib/node_modules/karma-cli
+206 info build /usr/local/lib/node_modules/karma-cli
+207 verbose linkStuff [ true,
+207 verbose linkStuff   '/usr/local/lib/node_modules',
+207 verbose linkStuff   true,
+207 verbose linkStuff   '/usr/local/lib/node_modules' ]
+208 info linkStuff karma-cli@0.0.3
+209 verbose linkBins karma-cli@0.0.3
+210 verbose link bins [ { karma: './bin/karma' }, '/usr/local/bin', true ]
+211 verbose linkMans karma-cli@0.0.3
+212 verbose rebuildBundles karma-cli@0.0.3
+213 verbose rebuildBundles [ 'resolve' ]
+214 info /usr/local/lib/node_modules/karma-cli unbuild
+215 info preuninstall karma-cli@0.0.3
+216 info uninstall karma-cli@0.0.3
+217 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild karma-cli@0.0.3
+218 verbose /usr/local/bin,[object Object] binRoot
+219 error error rolling back Error: Refusing to delete: /usr/local/bin/karma not in /usr/local/lib/node_modules/karma-cli
+219 error error rolling back     at clobberFail (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:41:12)
+219 error error rolling back     at next (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:27:14)
+219 error error rolling back     at /usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:36:12
+219 error error rolling back     at Object.oncomplete (fs.js:107:15)
+219 error error rolling back  karma-cli@0.0.3 { [Error: Refusing to delete: /usr/local/bin/karma not in /usr/local/lib/node_modules/karma-cli] code: 'EEXIST', path: '/usr/local/bin/karma' }
+220 error Refusing to delete: /usr/local/bin/karma not in /usr/local/lib/node_modules/karma-cli
+File exists: /usr/local/bin/karma
+Move it away, and try again.
+221 error System Darwin 11.4.2
+222 error command "node" "/usr/local/bin/npm" "install" "-g" "karma-cli"
+223 error cwd /Users/gmp26/angular/Gotit
+224 error node -v v0.10.23
+225 error npm -v 1.3.17
+226 error path /usr/local/bin/karma
+227 error code EEXIST
+228 verbose exit [ 1, true ]

@@ -5,7 +5,7 @@ angular.module 'Gotit' <[ ngRoute ngTouch gotit ui.bootstrap ]>
 
     $routeProvider
     .when '/', do
-      templateUrl: 'views/main.html'
+      templateUrl: 'views/gotit.html'
       controller: 'gotit'
     .otherwise do
       redirectTo: '/'
